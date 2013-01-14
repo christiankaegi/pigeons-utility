@@ -8,8 +8,9 @@ The pigeons utility is not bound to a specific framework and can be used in any 
 ### Dependencies:
 - None
 
-### Other frameworks used in the demo project:
+### Live Demo:
+- [Pigeons Utility Demo Project](http://www.kaegi.net/pigeons-utility-demo)
 
-- [PureMVC Multicore Framework](https://github.com/PureMVC/puremvc-as3-multicore-framework)
-- [AS3 Signals](https://github.com/robertpenner/as3-signals)
-- [Greensock Libraries (SWFLoader)](https://github.com/greensock/GreenSock-AS3)
+### Source of the Demo Project:
+- [Project Source on GIT](https://github.com/christiankaegi/pigeons-utility-demo-project)
+
