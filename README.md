@@ -12,7 +12,7 @@ The pigeons utility is not bound to a specific framework and can be used in any 
 - [Pigeons Utility Demo Project](http://www.kaegi.net/pigeons-utility-demo)
 
 ### Source of the Demo Project:
-- [Project Source here on github](https://github.com/christiankaegi/pigeons-utility-demo-project)
+- [Project Source here on GitHub](https://github.com/christiankaegi/pigeons-utility-demo-project)
 
 ### How to use (in the shell):
 First, your base class (shell) must extend **PigeonShell** and implement **IPigeonShell**.  
@@ -57,6 +57,9 @@ You need to override 4 public methods of PigeonModule.
     }
     
 ### Send messages
+
+Like PureMVC notifications, a message consists of a name (String, required), body (Object, optional) and type (String, optional).  
+The first parameter is an array of recipients. So you can send a message to more than one module at the same time.
     
 Send a message to the shell:
 
@@ -64,11 +67,11 @@ Send a message to the shell:
     
 Send a message to a module:
     
-    pigeonry.sendMessage(["redModule"], PigeonConstants.MESSAGE, "Hi module, hello from the other module!");
+    pigeonry.sendMessage(["redModule"], "dataLoaded", {data:data, message:"Hi module, your data is ready!"});
      
 Send a message to multiple recipients:
     
-    pigeonry.sendMessage(["blueModule", "redModule"], PigeonConstants.MESSAGE, "Hi modules, hello from the pink module!")
+    pigeonry.sendMessage(["videoPlayer", "controls"], YourConstants.PLAY);
 
 
     
