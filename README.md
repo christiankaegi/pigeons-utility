@@ -26,9 +26,9 @@ Now just wait and listen for incoming messages from the modules:
     override public function handlePigeonMessage(message:PigeonMessage):void 
     {
           // handle the message. It consists of 3 parts:
-          // - message.getName()     (String):
-          // - message.getBody()     (Object):
-          // - message.getType()     (String):  
+          // - message.getName()     (String)
+          // - message.getBody()     (Object)
+          // - message.getType()     (String)  
     }
     
 ### How to use (in a module):
