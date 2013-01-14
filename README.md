@@ -12,7 +12,7 @@ The pigeons utility is not bound to a specific framework and can be used in any 
 - [Pigeons Utility Demo Project](http://www.kaegi.net/pigeons-utility-demo)
 
 ### Source of the Demo Project:
-- [Project Source on GIT](https://github.com/christiankaegi/pigeons-utility-demo-project)
+- [Project Source here on github](https://github.com/christiankaegi/pigeons-utility-demo-project)
 
 ### How to use (in the shell):
 First, your base class (shell) must extend **PigeonShell** and implement **IPigeonShell**.  
